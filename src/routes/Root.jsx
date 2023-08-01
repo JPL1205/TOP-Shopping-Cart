@@ -7,6 +7,7 @@ import { useState, useEffect } from "react";
 import Cart from "../components/cart";
 import { useCart } from "../components/CartProvider";
 import Footer from "../components/Footer";
+import heroImage from "../assets/hero-img.jpeg";
 
 export default function Root() {
   const [showCart, setShowCart] = useState(false);
@@ -26,6 +27,9 @@ export default function Root() {
         {!shop && !about ? (
           <div className="mt-20">
             <section className={styles.fullViewport}>
+              <div
+                className={styles.background}
+                style={{ backgroundImage: `url(${heroImage})` }}></div>
               <div className={styles.content}>
                 <h3 className="text-3xl z-10">AVAILABLE NOW:</h3>
                 <h1 className="text-4xl font-bold pt-3 pb-8 z-10">
