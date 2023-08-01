@@ -1,0 +1,22 @@
+.sideGroup {
+  color: black;
+  width: 20vw;
+  text-align: start;
+  font-weight: 600;
+}
+
+.refine {
+  font-weight: 600;
+  font-size: 1.5rem;
+  border-bottom: 1px solid black;
+  padding-bottom: 0.5rem;
+}
+.list {
+  border-bottom: 1px solid black;
+  padding: 0.5rem 0rem;
+}
+
+.price {
+  text-align: start;
+  padding: 5px;
+}

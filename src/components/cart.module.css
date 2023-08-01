@@ -1,0 +1,67 @@
+.cart {
+  width: 30vw;
+  height: 100vh;
+  position: fixed;
+  right: -30vw;
+  top: 0;
+  z-index: 100;
+  background: #f8f8f8;
+  transition: 0.5s;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-shadow: 0px -10px 5px black;
+  overflow: scroll;
+}
+
+.show {
+  right: 0;
+}
+
+.item {
+  padding-top: 1rem;
+}
+
+.btn {
+  border: 0.5px solid gray;
+  background: white;
+  padding-inline: 5px;
+}
+
+.quantity {
+  background: white;
+  border: 0.5px solid gray;
+  text-align: center;
+  padding-inline: 10px;
+}
+
+.remove {
+  border: 2px solid black;
+  font-size: 0.5rem;
+  font-weight: 800;
+  padding-inline: 5px;
+  padding-top: 0;
+}
+
+.remove:hover {
+  color: white;
+  background: #000;
+}
+
+.checkout {
+  composes: view from "../routes/Root.module.css";
+  width: 100%;
+}
+
+.checkout:hover {
+  opacity: 0.8;
+}
+
+.textarea {
+  width: 100%;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.textarea:focus {
+  outline: none;
+}

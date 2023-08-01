@@ -1,0 +1,39 @@
+.item {
+  /* border: 1px solid black; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  align-items: center;
+  gap: 10px;
+  /* width: 200px; */
+}
+
+.itemContainer {
+  display: flex;
+}
+
+.btn {
+  border: 1px solid black;
+  width: fit-content;
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 2px 5px;
+}
+
+.product {
+  width: 150px;
+}
+
+.setQ {
+  border: 1px solid black;
+  padding: 0 10px;
+}
+
+.q {
+  border: 0.5px solid gray;
+  background: white;
+  padding: 0px 10px;
+}
